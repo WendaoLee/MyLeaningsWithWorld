@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "673460e80f7bffda",
+    "type": "split",
+    "children": [
+      {
+        "id": "066a3def0dfa5c16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dce537d110793b78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cis1940_Spring13/01-Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b86b8888b9a3af9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "category theory/Preliminaires Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10fe029fafb93d9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "category theory/What is the diagonal relation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0826f4baaa0109c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dcea4440bf24e05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3587d0bcf90f83f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c9962e166d7e6dcc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Translation",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b6f737e84cb68add",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8e3fb5f70087ca16",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ec4b4d1c5179e6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce8b063e6df13317",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "category theory/What is the diagonal relation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aa6f4acf5b474df4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "category theory/What is the diagonal relation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "acb69fe1d1899288",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "1e9ad99505cd6f51",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "category theory/What is the diagonal relation.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "10fe029fafb93d9f",
+  "lastOpenFiles": [
+    "cis1940_Spring13/01-Intro_Origin.md",
+    "category theory/Preliminaires Notes.md",
+    "category theory/What is the diagonal relation.md",
+    "cis1940_Spring13/01-Intro.md",
+    "cis1940_Spring13/Projective Programming.md",
+    "cis1940_Spring13/Vertex separation.md",
+    "cis1940_Spring13/使用GHCup安装的注意事项.md",
+    "cis1940_Spring13/The Abstraction Principle.md",
+    "category theory/罗素悖论.md",
+    "cis1940_Spring13/Compositional Programming.md"
+  ]
+}

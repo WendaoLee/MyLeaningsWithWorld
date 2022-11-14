@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "c4977418306ad8f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "545c3bc5edd9d37e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "659e094989e03c4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Translation/category theory/Preliminaires Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a29ed7720f5920b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f04615147a02aaca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "590caaed7d416f9b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b4b409522e8ae242",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e3c5707a35ccb8a9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5da739d993c431f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b53a4014bb501d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4fc777e9d597c48",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Translation/category theory/Preliminaires Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4b97a05cb4a081d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Translation/category theory/Preliminaires Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "38e0677c4d83de6d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2ed0bf9c140becc0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Translation/category theory/Preliminaires Notes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "659e094989e03c4f",
+  "lastOpenFiles": [
+    "README.md",
+    "Catefory Theory For CS.pdf",
+    "Translation/category theory/Preliminaires Notes.md",
+    "Translation/category theory/Identity Function.md",
+    "Translation/category theory/sources/Pasted image 20221114104120.png",
+    "Translation/category theory/态射 Morphism.md",
+    "Translation/category theory/朴素集合论.md",
+    "Translation/category theory/Inclusion Function.md",
+    "Translation/category theory/What is the diagonal relation.md",
+    "Translation/category theory/Why do we have codomain?.md"
+  ]
+}

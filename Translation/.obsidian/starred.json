@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "01-Intro",
+      "path": "cis1940_Spring13/01-Intro.md"
+    },
+    {
+      "type": "file",
+      "title": "202210261950",
+      "path": "cis1940_Spring13/The Abstraction Principle.md"
+    },
+    {
+      "type": "file",
+      "title": "Projective Programming",
+      "path": "cis1940_Spring13/Projective Programming.md"
+    }
+  ]
+}
