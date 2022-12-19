@@ -27,7 +27,7 @@ P(x)表示集合的元素x满足某种条件（或者可以说，满足某种性
 
 {S | S is a set and S not belong to S}
 
-假设该集合记作T，那么对于$T\notin T$,显然会出现这样的问题：
+假设满足该性质的元素集合记作T，那么对于$T\notin T$,显然会出现这样的问题：
 
 - 如果$T\notin T$ 成立，那么T满足了对应性质P，这意味着$T \in T$ 。
 
@@ -70,14 +70,19 @@ $\alpha = G \subseteq S \times T$
 
 $\triangle_\alpha =\{(x,x)|x \in S\} \subseteq S \times S$
 
-> [[What is the diagonal relation]]之所以叫对角线关系，是因为若$S=R$ ，那么将它作为图表示时，$S \times S$ 便会是 $y = x$这样的对角线。
+> [[对角关系Diagonal Relation]] 之所以叫对角线关系，是因为若$S=R$ ，那么将它作为图表示时，$S \times S$ 便会是 $y = x$这样的对角线。
 
 另一个例子是“<”（小于）这样定义在实数集上的一种关系，它可以被表示为：
 
 {(r, s) | There is a positive number t such that r + t = s}
 
+即：所有的关系，我们都可以以集合的形式表现or描述
 
 对于一个从集合S到集合T的关系$\alpha$ ，我们通常写作 $s  \alpha  t$ ，它可以被看作为$(s,t)\in \alpha$ 。
+
+>例：
+>2<3 --> $(2,3) \in (R,S)$,for 2,3 both in R and exist positive number 1 for 2 to satisfy 2+1=3
+>2<3 := $R \alpha R$
 
 > 关于关系，可阅读[[Szekeres数学物理]1.3 Cartesian(笛卡尔)积与关系](https://zhuanlan.zhihu.com/p/572311641)
 
@@ -112,14 +117,15 @@ $\triangle_\alpha =\{(x,x)|x \in S\} \subseteq S \times S$
 - 相反的，换句话来说，包含定义域、陪域以及每个定义域x所对应的值的数据可以定义出一个函数。
 
 > 这一点我觉得可以参考[[朴素集合论]]的iii去理解。函数是包括这三者的实体，即这三者为函数的性质。因此只要存在一样事物包含这三者，那么这性质便可决定出这样的一个对象。
+> 同理，因为函数本身是一个数学实体，是一个对象，因此函数本身也可以组成一个集合。
 
 #### 函数的图 Graph of a function
 
 对于函数$f:S \rightarrow T$,我们定义它的图（graph）为由它的序偶组成的集合：$\{(x,f(x))|x \in S\}$ 。
 
-我们可以发现，如此定义下，我们可以发现，所谓的图便是我们在前面[[#关系 Relation]] 下定义的从集合S到集合T的一种关系。当然，不是所有关系都是函数的图，它应当满足Funcational Property，即对于S中的每一个元素s，总是有T中的一个且仅只有一个元素t与它对应。
+我们可以发现，如此定义下，我们可以发现，所谓的图便是我们在前面[[#关系 Relation]] 下定义的从集合S到集合T的一种关系。当然，**不是所有关系都是函数的图**，它应当满足Funcational Property，即对于S中的每一个元素s，总是有T中的一个且仅只有一个元素t与它对应。
 
-> 其他地方可能会把函数定义为一个存在Funcational Property的关系。但这里不会这样定义。
+> 其他地方可能会把函数定义为一个存在Funcational Property的关系。但这里（本书，Category Theory for CS）不会这样定义。
 
 
 #### 函数的像 Image of a function
@@ -142,8 +148,8 @@ $\triangle_\alpha =\{(x,x)|x \in S\} \subseteq S \times S$
 #### 函数与笛卡尔积
 
 我们可以把笛卡尔积$S \times T$看作两个坐标(Coordinate)或投影(Projection)函数：
-$proj_1 = S \times T \rightarrow S,proj_2 = S \times T \rightarrow T$
 
+$proj_1 = S \times T \rightarrow S,proj_2 = S \times T \rightarrow T$
 
 同样，对于这样一个映射到陪域为两个集合的笛卡尔积的函数:$X \rightarrow S \times T$，如果函数$f:X \rightarrow S,g: X \rightarrow T$,我们将它记作函数$<f,g>:X \rightarrow S \times T$。
 
@@ -158,7 +164,7 @@ $f\times g:X\times Y \rightarrow S \times T$
 
 复合函数的定义为，如果函数$f:S \rightarrow T,g:T \rightarrow U$,那么就有复合函数$g\circ f:S \rightarrow U$。
 
-需要指出的是，函数的限制（restriction，可理解为对定义域的限制）也可以写作为复合函数。例如函数$f:S \rightarrow T$,若有集合$A \subseteq S$,那么我们可以对定义域作出限制，从而定义出一个新的函数（因为在我们范畴论的定义中，只要定义域与陪域不同，那么便是不同的函数）。设这个函数为$g$,那么它可以被写作这样的一个复合函数：$g=f\circ i$。$i$是我们前文提到的[[Inclusion Function]]。
+需要指出的是，函数的限制（restriction，**可理解为对定义域的限制**）也可以写作为复合函数。例如函数$f:S \rightarrow T$,若有集合$A \subseteq S$,那么我们可以对定义域作出限制，从而定义出一个新的函数（因为在我们范畴论的定义中，只要定义域与陪域不同，那么便是不同的函数）。设这个函数为$g$,那么它可以被写作这样的一个复合函数：$g=f\circ i$，此时$i:A \rightarrow S$，$i$是我们前文提到的[[Inclusion Function]]。
 
 > 关于对函数的限制，一般出于以下三个目的：
 > 1. 正式地定义出一个新函数。
@@ -166,7 +172,7 @@ $f\times g:X\times Y \rightarrow S \times T$
 > 3. 截取函数的一段，让它能够表现得更好。
 > 可参见 https://www.statisticshowto.com/restrictions-of-a-function/
 
-同样，对函数的陪域的限制（corestriction）也可以写作这种形式。如果$f:S \rightarrow T,T \subseteq B,j:T \rightarrow B,$则有函数$g=j\circ f$。
+同样，对函数的陪域的限制（corestriction）也可以写作这种形式。对于函数$f:S \rightarrow T$，如果需要限制陪域至集合B，$T \subseteq B$,$j:T \rightarrow B,$则有函数$g=j\circ f$。
 
 #### Hom函数
 

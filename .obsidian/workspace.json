@@ -11,6 +11,28 @@
             "id": "659e094989e03c4f",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Catefory Theory For CS.pdf"
+              }
+            }
+          },
+          {
+            "id": "dee3eacc13070a3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Translation/category theory/对角关系Diagonal Relation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2cd67d22996d1d2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Translation/category theory/Preliminaires Notes.md",
@@ -19,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,17 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "659e094989e03c4f",
+  "active": "a2cd67d22996d1d2",
   "lastOpenFiles": [
-    "README.md",
     "Catefory Theory For CS.pdf",
     "Translation/category theory/Preliminaires Notes.md",
-    "Translation/category theory/Identity Function.md",
-    "Translation/category theory/sources/Pasted image 20221114104120.png",
-    "Translation/category theory/态射 Morphism.md",
-    "Translation/category theory/朴素集合论.md",
     "Translation/category theory/Inclusion Function.md",
-    "Translation/category theory/What is the diagonal relation.md",
-    "Translation/category theory/Why do we have codomain?.md"
+    "Translation/category theory/对角关系Diagonal Relation.md",
+    "Translation/category theory/朴素集合论.md",
+    "Translation/category theory/sources/Pasted image 20221219165713.png",
+    "Translation/category theory/Identity Function.md",
+    "README.md",
+    "Translation/category theory/罗素悖论.md",
+    "Translation/category theory/态射 Morphism.md"
   ]
 }
