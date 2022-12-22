@@ -11,9 +11,11 @@
             "id": "659e094989e03c4f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Catefory Theory For CS.pdf"
+                "file": "Translation/category theory/Preliminaires Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -23,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Translation/category theory/对角关系Diagonal Relation.md",
+                "file": "Translation/category theory/态射 Morphism.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Translation/category theory/Preliminaires Notes.md",
+                "file": "Translation/cis1940_Spring13/01-Intro_Origin.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,24 +153,35 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "a2cd67d22996d1d2",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false
+    }
+  },
+  "active": "659e094989e03c4f",
   "lastOpenFiles": [
     "Catefory Theory For CS.pdf",
     "Translation/category theory/Preliminaires Notes.md",
-    "Translation/category theory/Inclusion Function.md",
+    "Translation/category theory/态射 Morphism.md",
     "Translation/category theory/对角关系Diagonal Relation.md",
+    "Translation/category theory/Inclusion Function.md",
     "Translation/category theory/朴素集合论.md",
     "Translation/category theory/sources/Pasted image 20221219165713.png",
     "Translation/category theory/Identity Function.md",
     "README.md",
-    "Translation/category theory/罗素悖论.md",
-    "Translation/category theory/态射 Morphism.md"
+    "Translation/category theory/罗素悖论.md"
   ]
 }

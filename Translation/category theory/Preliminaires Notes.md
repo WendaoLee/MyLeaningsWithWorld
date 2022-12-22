@@ -62,7 +62,7 @@ $S_{1} \times S_{2} \times S_{3}... \times S_{n} = (s_1,s_2,s_3,...,s_n)$
 
 #### 关系 Relation
 
-从集合S到集合T的关系 $\alpha$ ,其实便是集合S与集合T的笛卡尔积的子集。即:
+从集合S到集合T的关系 $\alpha$ ,其实便是集合S与集合T的笛卡尔积的**子集**。即:
 
 $\alpha = G \subseteq S \times T$
 
@@ -172,13 +172,15 @@ $f\times g:X\times Y \rightarrow S \times T$
 > 3. 截取函数的一段，让它能够表现得更好。
 > 可参见 https://www.statisticshowto.com/restrictions-of-a-function/
 
-同样，对函数的陪域的限制（corestriction）也可以写作这种形式。对于函数$f:S \rightarrow T$，如果需要限制陪域至集合B，$T \subseteq B$,$j:T \rightarrow B,$则有函数$g=j\circ f$。
+同样，对函数的陪域的限制（corestriction）也可以写作这种形式。对于函数$f:S \rightarrow T$，若存在$T \subseteq B$，此时函数$f$便是复合函数的$j\circ f:S \rightarrow B$对于T的的陪域限制。
+
+> 此处存疑。数学词典有“转移映射”一词，为 transfer 或 corestriction mapping 。corestriction理解为陪域的限制其实也可以吧。
 
 #### Hom函数
 
 $Hom(S,T)$是一个可被重载（overload）的注记。当其中的元素都是集合时，此时$Home(S,T)$表示一个集合，它包含了所有从定义域S映射到陪域T的函数：$\{f|\forall f:S\rightarrow T \}$。
 
-而当它其中一个元素为函数时，那么它便会是一个Hom函数，它表示从函数到函数的映射。它有两种形式，一种是$Hom(S,f)$。
+而当它其中一个元素为函数时，那么它便表义为一个Hom函数，它表示从函数到函数的映射。它有两种形式，一种是$Hom(S,f)$。
 
 举例说明，若有函数$f:T \rightarrow V$，则$Hom(S,f)=Hom(S,T) \rightarrow Hom(S,V)$。
 
@@ -186,13 +188,14 @@ $Hom(S,T)$是一个可被重载（overload）的注记。当其中的元素都�
 
 简单来讲，可以这么理解：你把一个函数$g:S \rightarrow T$放入Hom函数中，最后能够得到一个新的函数$S \rightarrow V$。Hom函数本身是把一个函数映射为另一个函数，而它映射出来的结果函数，实际上是这样的一个复合过程：$f\circ g$。
 
-再简化些，参考 https://math.stackexchange.com/questions/352361/understanding-hom-functions ，它的形式应该被写为：$Hom(S,f)=f \circ -:Hom(S,T) \rightarrow Hom(S,U)$。$-$是待传入的函数。
-
+再简化些，参考 https://math.stackexchange.com/questions/352361/understanding-hom-functions ，它的形式应该被写为：$Hom(S,f)=f \circ -:Hom(S,T) \rightarrow Hom(S,U)$。$-$是待传入的函数，$f:T \rightarrow U$。
 
 它的回答列出的这个关系图我觉得挺棒的：
   
 $$
 \begin{array}{cccc} & S & & \\ g& \downarrow & \searrow \\ & T & \xrightarrow{f} & U\\ \end{array}$$
+
+最后Hom映射的结果函数便是上图中的对角线$S \rightarrow U$。
 
 Hom函数的另一种形式是$Hom(f,T)$。我们能在本节的习题1中看到它。它本身是一种逆变（contravariant）。举例来讲，若有函数$f:S \rightarrow U$，那么$Hom(f,T)=-\circ f:Hom(U,T)\rightarrow Home(S,T)$。
 
@@ -224,9 +227,11 @@ Hom函数的另一种形式是$Hom(f,T)$。我们能在本节的习题1中看到
 
 ## 图 Graph
 
-在这一节中我们所讨论的图都是有向图（directed graph），图的相关概念与范畴（category）有这密切关系：范畴便是一种可以由路径（path）组成的图。
+在这一节中我们所讨论的图都是有向图（directed graph），图的相关概念与范畴（category）有着密切关系：**范畴便是一种可以由路径（path）组成的图**。即，在范畴论中，所谓范畴，便是由一堆对象以及对象之间的态射组成的集合，而图便是这样的集合的表示。
 
-那么，什么是图呢？简单来讲，图便是由一堆节点（Nodes）和节点上的一连串的指向箭头（Arrow）。每个箭头都有一个起点（Source Node）与终点(Target Node)。我们可以如此表示图的一个节点以及从它开始的箭头：$f:a \rightarrow b$。它表示$f$是一个从起点a到终点b的箭头。
+> 关于态射 [[态射 Morphism]]
+
+那么，什么是图呢？简单来讲，图便是由一堆节点（Nodes）和节点上的一连串的指向箭头（Arrow）组成的一种结构。每个箭头都有一个起点（Source Node）与终点(Target Node)。我们可以如此表示图的一个节点以及从它开始的箭头：$f:a \rightarrow b$。它表示$f$是一个从起点a到终点b的箭头。
 
 需要说明的一点是，对比我们之前所学，我们不难发现$f:a\rightarrow b$便是一种映射关系。因此对于起点与终点，我们也可以用前面的概念去称呼它：起点-定义域（domain），终点-陪域（codomain），箭头-映射。同理，对于之前我们所学到的集合与函数，我们可以把集合当作节点、函数当作箭头，如此以图的视角去理解。
 
@@ -234,7 +239,12 @@ Hom函数的另一种形式是$Hom(f,T)$。我们能在本节的习题1中看到
 
 我们规定，对于图$G$，我们将它所有节点的集合记作$G_0$，所有箭头的集合记作$G_1$。
 
-> 关于small graph 与large graph，我其实还是不太理解。先跳过。之后再回看。
+> （？）此处不知自己理解是否正确
+> 小图（small graph）与大图（large graph）如字面上理解，形容的是图的规模：
+> · 如果一张图单纯基于可穷尽的集合的形式构建，那么我们称呼它为小图。
+> · 否则则是大图，因为它的结构非常复杂且规模庞大。例如“集合”与“函数”的图，这样的图便是大图。
+> 
+> 然而在范畴论中，图的大小并非一个特别重要的东西。我们只是可能要用到它，因此便定义了它。
 
 > 对于没有箭头的图，我们称它为离散的。同理，没有箭头和节点的图，我们也称它为离散的。
 
@@ -247,8 +257,18 @@ $\alpha = \{(1,2),(2,2),(2,3),(1,4)\}$
 
 #### 数据结构、数据类型与图
 
-我们也可以用图去表示一种数据类型或数据结构。很可惜，这一块我看得比较懵懂，先跳过。
+我们也可以用图去表示一种数据类型或数据结构。
+
+我们知道，数据结构是这样的一种存在：
+
+- 它有特定的结构存放数据。如CS中的树，它以节点存放数据，而节点同样存放指向其他结构的指针。
+- 在它上面存在着对应的操作。例如树的遍历。
+
+下图便是用图表示的一种数据结构：
+
 ![[Pasted image 20221114110813.png]]
+
+
 
 > ![[Pasted image 20221114104120.png]]
 > 用图表示一种数据类型。有点懵懂，但说不出来。
