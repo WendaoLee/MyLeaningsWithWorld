@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "545c3bc5edd9d37e",
+        "id": "a13944cf4a18b8da",
         "type": "tabs",
         "children": [
           {
-            "id": "659e094989e03c4f",
+            "id": "7fe6725acda75b00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Translation/category theory/Preliminaires Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dee3eacc13070a3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Translation/category theory/态射 Morphism.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2cd67d22996d1d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Translation/cis1940_Spring13/01-Intro_Origin.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Translation/category theory/Preliminaires Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Translation/category theory/Preliminaires Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Translation/category theory/Preliminaires Notes.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -171,17 +139,17 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "659e094989e03c4f",
+  "active": "7fe6725acda75b00",
   "lastOpenFiles": [
     "Catefory Theory For CS.pdf",
-    "Translation/category theory/Preliminaires Notes.md",
     "Translation/category theory/态射 Morphism.md",
+    "Translation/category theory/Preliminaires Notes.md",
     "Translation/category theory/对角关系Diagonal Relation.md",
+    "Translation/category theory/罗素悖论.md",
     "Translation/category theory/Inclusion Function.md",
-    "Translation/category theory/朴素集合论.md",
-    "Translation/category theory/sources/Pasted image 20221219165713.png",
     "Translation/category theory/Identity Function.md",
-    "README.md",
-    "Translation/category theory/罗素悖论.md"
+    "Translation/category theory/sources/Pasted image 20221114105634.png",
+    "Translation/category theory/sources/Pasted image 20221114104120.png",
+    "Translation/category theory/sources/graph-1.jpg"
   ]
 }
